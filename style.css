@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ⑥コーディングを始める前にCSSファイルのhtml、bodyの直下に以下のCSSを適用すること。インデントがずれている場合は修正すること。 */
 *, *:before, *:after {
   box-sizing: border-box;
