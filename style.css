@@ -59,11 +59,9 @@ button {
   color: inherit;
   cursor: pointer;
 }
-head {
-  font-family: 'Noto Sans JP', sans-serif;
-}
 /* ⑦コーディングを始める前にbodyに以下のstyleを追加 */
 body {
+  font-family: 'Noto Sans JP', sans-serif;
   margin: 0;
 }
 /* iphone se size */
@@ -83,6 +81,7 @@ body {
     color: #fff;
     line-height: 0.5em;
     letter-spacing: 0.3em;
+    /* 位置指定 */
     position: relative;
     top: 9.2em;
   }
@@ -200,6 +199,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     margin: 20px auto;
+    /* 余白の原因 */
     margin-top: 20px;
   }
   .stack {
@@ -207,11 +207,12 @@ body {
   }
   .stack h2 {
     position: absolute;/*絶対配置*/
-    color: white;
-    letter-spacing: 0.1em;
     bottom: 0;
     left: 0;
+    color: white;
+    letter-spacing: 0.1em;
     margin-left: 5px;
+    font-size: 1em;
   }
   img{
     object-fit: contain;
@@ -221,26 +222,20 @@ body {
   .category {
     background-color: #FFC542;
     display: inline-block;
-    font-size: 8px;
+    font-size: .6em;
     color: #fff;
     text-align: left;
     margin: 5px;
     padding: .5em 2em;
   }
   .catedory p {
-    margin: 5px;
-    padding: 5px;
-  }
-  .new {
-    position: relative;
-    bottom: 0;
-    left: 5px;
-    font-size: 1.5em;
+    margin: .5em;
+    padding: .5em;
   }
   .title {
     margin-top: 5%;
     text-align: left;
-    padding-left: 5px;
+    padding-left: .2em;
     font-weight: bold;
     font-size: 1em;
     /* 三点リーダー */
@@ -253,7 +248,7 @@ body {
     text-align: center;
     font-size: .7em;
     color: #979797;
-    padding-top: 5px;
+    padding-top: .5em;
   }
   /* footer */
   footer {
@@ -268,13 +263,13 @@ body {
     height: 120px;
     border-radius: 50%;
     background: #fff;
-    text-align:center;
+    text-align: center;
     line-height: 120px;
     margin: 20px;
   }
   /* size変更 */
   .size{
-    font-size:3em; /*3倍にする*/
+    font-size: 3em; /*3倍にする*/
   }
 }
 
@@ -429,11 +424,12 @@ body {
     }
     .stack h2 {
       position: absolute;/*絶対配置*/
-      color: white;
-      letter-spacing: 0.1em;
       bottom: 0;
       left: 0;
+      color: white;
+      letter-spacing: 0.1em;
       margin-left: 5px;
+      font-size: 1em;
     }
     img{
       object-fit: contain;
@@ -452,12 +448,6 @@ body {
     .catedory p {
       margin: 5px;
       padding: 5px;
-    }
-    .new {
-      position: relative;
-      bottom: 0;
-      left: 15px;
-      font-size: 1.5em;
     }
     .title {
       margin-top: 5%;
@@ -496,7 +486,7 @@ body {
   .size{
     font-size:3em; /*3倍にする*/
   }
-
+}
   /* pc size */
 @media screen and (min-width:1366px) {
   /* 二分割する */
@@ -650,11 +640,12 @@ body {
     }
     .stack h2 {
       position: absolute;/*絶対配置*/
-      color: white;
-      letter-spacing: 0.1em;
       bottom: 0;
       left: 0;
+      color: white;
+      letter-spacing: 0.1em;
       margin-left: 5px;
+      font-size: 1em;
     }
     img{
       object-fit: contain;
@@ -673,12 +664,6 @@ body {
     .catedory p {
       margin: 5px;
       padding: 5px;
-    }
-    .new {
-      position: relative;
-      bottom: 0;
-      left: 5px;
-      font-size: 1.5em;
     }
     .title {
       margin-top: 5%;
